@@ -1,0 +1,103 @@
+Information: Updating design information... (UID-85)
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 1
+Design : gr13_fir
+Version: O-2018.06-SP4
+Date   : Mon Nov  9 17:01:03 2020
+****************************************
+
+Operating Conditions: typical   Library: NangateOpenCellLibrary
+Wire Load Model Mode: top
+
+  Startpoint: b[20] (input port clocked by MY_CLK)
+  Endpoint: DOUT_reg[10]
+            (rising edge-triggered flip-flop clocked by MY_CLK)
+  Path Group: MY_CLK
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  gr13_fir           5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock MY_CLK (rise edge)                                0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  input external delay                                    0.50       0.50 f
+  b[20] (in)                                              0.00       0.50 f
+  mult_66_G2/a[1] (gr13_fir_DW_mult_tc_9)                 0.00       0.50 f
+  mult_66_G2/U312/ZN (INV_X1)                             0.04       0.54 r
+  mult_66_G2/U315/Z (XOR2_X2)                             0.15       0.69 r
+  mult_66_G2/U461/ZN (NAND2_X1)                           0.11       0.80 f
+  mult_66_G2/U355/ZN (OAI22_X1)                           0.08       0.88 r
+  mult_66_G2/U74/S (HA_X1)                                0.09       0.96 r
+  mult_66_G2/U21/S (FA_X1)                                0.12       1.09 f
+  mult_66_G2/product[3] (gr13_fir_DW_mult_tc_9)           0.00       1.09 f
+  add_7_root_add_0_root_add_47_I11/A[3] (gr13_fir_DW01_add_6)
+                                                          0.00       1.09 f
+  add_7_root_add_0_root_add_47_I11/U1_3/S (FA_X1)         0.13       1.22 f
+  add_7_root_add_0_root_add_47_I11/SUM[3] (gr13_fir_DW01_add_6)
+                                                          0.00       1.22 f
+  add_2_root_add_0_root_add_47_I11/B[3] (gr13_fir_DW01_add_5)
+                                                          0.00       1.22 f
+  add_2_root_add_0_root_add_47_I11/U1_3/CO (FA_X1)        0.10       1.32 f
+  add_2_root_add_0_root_add_47_I11/U1_4/CO (FA_X1)        0.09       1.41 f
+  add_2_root_add_0_root_add_47_I11/U1_5/CO (FA_X1)        0.09       1.51 f
+  add_2_root_add_0_root_add_47_I11/U1_6/S (FA_X1)         0.14       1.64 r
+  add_2_root_add_0_root_add_47_I11/SUM[6] (gr13_fir_DW01_add_5)
+                                                          0.00       1.64 r
+  add_1_root_add_0_root_add_47_I11/B[6] (gr13_fir_DW01_add_1)
+                                                          0.00       1.64 r
+  add_1_root_add_0_root_add_47_I11/U1_6/S (FA_X1)         0.12       1.76 f
+  add_1_root_add_0_root_add_47_I11/SUM[6] (gr13_fir_DW01_add_1)
+                                                          0.00       1.76 f
+  add_0_root_add_0_root_add_47_I11/B[6] (gr13_fir_DW01_add_0)
+                                                          0.00       1.76 f
+  add_0_root_add_0_root_add_47_I11/U24/ZN (OAI21_X1)      0.04       1.79 r
+  add_0_root_add_0_root_add_47_I11/U3/ZN (INV_X1)         0.02       1.82 f
+  add_0_root_add_0_root_add_47_I11/U23/ZN (AOI21_X1)      0.06       1.88 r
+  add_0_root_add_0_root_add_47_I11/U5/ZN (INV_X1)         0.02       1.90 f
+  add_0_root_add_0_root_add_47_I11/U22/ZN (OAI21_X1)      0.04       1.95 r
+  add_0_root_add_0_root_add_47_I11/U21/ZN (OAI21_X1)      0.04       1.98 f
+  add_0_root_add_0_root_add_47_I11/U20/ZN (OAI21_X1)      0.05       2.03 r
+  add_0_root_add_0_root_add_47_I11/U4/ZN (INV_X1)         0.02       2.06 f
+  add_0_root_add_0_root_add_47_I11/U19/ZN (AOI21_X1)      0.06       2.12 r
+  add_0_root_add_0_root_add_47_I11/U2/ZN (INV_X1)         0.02       2.14 f
+  add_0_root_add_0_root_add_47_I11/U18/ZN (OAI21_X1)      0.04       2.19 r
+  add_0_root_add_0_root_add_47_I11/U17/ZN (OAI21_X1)      0.04       2.22 f
+  add_0_root_add_0_root_add_47_I11/U1_10/CO (FA_X1)       0.09       2.31 f
+  add_0_root_add_0_root_add_47_I11/U1_11/CO (FA_X1)       0.09       2.40 f
+  add_0_root_add_0_root_add_47_I11/U1_12/CO (FA_X1)       0.09       2.49 f
+  add_0_root_add_0_root_add_47_I11/U1_13/CO (FA_X1)       0.09       2.59 f
+  add_0_root_add_0_root_add_47_I11/U1_14/CO (FA_X1)       0.09       2.68 f
+  add_0_root_add_0_root_add_47_I11/U1_15/CO (FA_X1)       0.09       2.77 f
+  add_0_root_add_0_root_add_47_I11/U1_16/CO (FA_X1)       0.09       2.86 f
+  add_0_root_add_0_root_add_47_I11/U1_17/CO (FA_X1)       0.09       2.95 f
+  add_0_root_add_0_root_add_47_I11/U1_18/CO (FA_X1)       0.09       3.04 f
+  add_0_root_add_0_root_add_47_I11/U1_19/CO (FA_X1)       0.09       3.13 f
+  add_0_root_add_0_root_add_47_I11/U1_20/S (FA_X1)        0.13       3.26 r
+  add_0_root_add_0_root_add_47_I11/SUM[20] (gr13_fir_DW01_add_0)
+                                                          0.00       3.26 r
+  U310/ZN (INV_X1)                                        0.02       3.28 f
+  U309/ZN (OAI22_X1)                                      0.05       3.33 r
+  DOUT_reg[10]/D (DFF_X1)                                 0.01       3.34 r
+  data arrival time                                                  3.34
+
+  clock MY_CLK (rise edge)                                9.90       9.90
+  clock network delay (ideal)                             0.00       9.90
+  clock uncertainty                                      -0.07       9.83
+  DOUT_reg[10]/CK (DFF_X1)                                0.00       9.83 r
+  library setup time                                     -0.04       9.79
+  data required time                                                 9.79
+  --------------------------------------------------------------------------
+  data required time                                                 9.79
+  data arrival time                                                 -3.34
+  --------------------------------------------------------------------------
+  slack (MET)                                                        6.45
+
+
+1
