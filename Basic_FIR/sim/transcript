@@ -1,0 +1,206 @@
+# //  ModelSim SE 6.2g Feb 21 2007 Linux 3.10.0-957.5.1.el7.x86_64
+# //
+# //  Copyright 1991-2007 Mentor Graphics Corporation
+# //              All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND 
+# //  PROPRIETARY INFORMATION WHICH IS THE PROPERTY
+# //  OF MENTOR GRAPHICS CORPORATION OR ITS LICENSORS
+# //  AND IS SUBJECT TO LICENSE TERMS.
+# //
+source fir_script.tcl
+# Model Technology ModelSim SE vcom 6.2g Compiler 2007.02 Feb 21 2007
+# -- Loading package standard
+# -- Compiling package constants
+# Model Technology ModelSim SE vcom 6.2g Compiler 2007.02 Feb 21 2007
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package std_logic_signed
+# -- Loading package numeric_std
+# -- Loading package constants
+# -- Compiling entity gr13_fir
+# -- Compiling architecture bhv of gr13_fir
+# Model Technology ModelSim SE vcom 6.2g Compiler 2007.02 Feb 21 2007
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Compiling entity clk_gen
+# -- Compiling architecture bhv of clk_gen
+# Model Technology ModelSim SE vcom 6.2g Compiler 2007.02 Feb 21 2007
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package std_logic_unsigned
+# -- Loading package textio
+# -- Loading package std_logic_textio
+# -- Compiling entity data_gen
+# -- Compiling architecture bhv of data_gen
+# Model Technology ModelSim SE vcom 6.2g Compiler 2007.02 Feb 21 2007
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package std_logic_unsigned
+# -- Loading package textio
+# -- Loading package std_logic_textio
+# -- Compiling entity data_save
+# -- Compiling architecture beh of data_save
+# Model Technology ModelSim SE vlog 6.2g Compiler 2007.02 Feb 21 2007
+# -- Compiling module tb_fir
+# 
+# Top level modules:
+# 	tb_fir
+vsim work.tb_fir
+# vsim work.tb_fir 
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.tb_fir(fast)
+# Loading /software/mentor/modelsim_6.2g/linux/../std.standard
+# Loading /software/mentor/modelsim_6.2g/linux/../ieee.std_logic_1164(body)
+# Loading work.clk_gen(bhv)
+# Loading /software/mentor/modelsim_6.2g/linux/../ieee.std_logic_arith(body)
+# Loading /software/mentor/modelsim_6.2g/linux/../ieee.std_logic_unsigned(body)
+# Loading /software/mentor/modelsim_6.2g/linux/../std.textio(body)
+# Loading /software/mentor/modelsim_6.2g/linux/../ieee.std_logic_textio(body)
+# Loading work.data_gen(bhv)
+# Loading /software/mentor/modelsim_6.2g/linux/../ieee.std_logic_signed(body)
+# Loading /software/mentor/modelsim_6.2g/linux/../ieee.numeric_std(body)
+# Loading work.constants
+# Loading work.gr13_fir(bhv)
+# Loading work.data_save(beh)
+run 2500 ns
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_fir/UUT/gen_mul__10
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_fir/UUT/gen_mul__10
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_fir/UUT/gen_mul__9
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_fir/UUT/gen_mul__9
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_fir/UUT/gen_mul__8
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_fir/UUT/gen_mul__8
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_fir/UUT/gen_mul__7
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_fir/UUT/gen_mul__7
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_fir/UUT/gen_mul__6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_fir/UUT/gen_mul__6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_fir/UUT/gen_mul__5
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_fir/UUT/gen_mul__5
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_fir/UUT/gen_mul__4
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_fir/UUT/gen_mul__4
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_fir/UUT/gen_mul__3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_fir/UUT/gen_mul__3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_fir/UUT/gen_mul__2
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_fir/UUT/gen_mul__2
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_fir/UUT/gen_mul__1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_fir/UUT/gen_mul__1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_fir/UUT/gen_mul__0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_fir/UUT/gen_mul__0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 1  Instance: /tb_fir/UUT/gen_mul__0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 1  Instance: /tb_fir/UUT/gen_mul__1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 1  Instance: /tb_fir/UUT/gen_mul__2
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 1  Instance: /tb_fir/UUT/gen_mul__3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 1  Instance: /tb_fir/UUT/gen_mul__4
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 1  Instance: /tb_fir/UUT/gen_mul__5
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 1  Instance: /tb_fir/UUT/gen_mul__6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 1  Instance: /tb_fir/UUT/gen_mul__7
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 1  Instance: /tb_fir/UUT/gen_mul__8
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 1  Instance: /tb_fir/UUT/gen_mul__9
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 1  Instance: /tb_fir/UUT/gen_mul__10
+restart -f
+# Loading work.tb_fir(fast)
+add wave sim:/tb_fir/*
+run 2500 ns
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_fir/UUT/gen_mul__10
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_fir/UUT/gen_mul__10
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_fir/UUT/gen_mul__9
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_fir/UUT/gen_mul__9
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_fir/UUT/gen_mul__8
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_fir/UUT/gen_mul__8
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_fir/UUT/gen_mul__7
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_fir/UUT/gen_mul__7
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_fir/UUT/gen_mul__6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_fir/UUT/gen_mul__6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_fir/UUT/gen_mul__5
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_fir/UUT/gen_mul__5
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_fir/UUT/gen_mul__4
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_fir/UUT/gen_mul__4
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_fir/UUT/gen_mul__3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_fir/UUT/gen_mul__3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_fir/UUT/gen_mul__2
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_fir/UUT/gen_mul__2
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_fir/UUT/gen_mul__1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_fir/UUT/gen_mul__1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_fir/UUT/gen_mul__0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_fir/UUT/gen_mul__0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 1  Instance: /tb_fir/UUT/gen_mul__0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 1  Instance: /tb_fir/UUT/gen_mul__1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 1  Instance: /tb_fir/UUT/gen_mul__2
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 1  Instance: /tb_fir/UUT/gen_mul__3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 1  Instance: /tb_fir/UUT/gen_mul__4
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 1  Instance: /tb_fir/UUT/gen_mul__5
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 1  Instance: /tb_fir/UUT/gen_mul__6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 1  Instance: /tb_fir/UUT/gen_mul__7
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 1  Instance: /tb_fir/UUT/gen_mul__8
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 1  Instance: /tb_fir/UUT/gen_mul__9
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 1  Instance: /tb_fir/UUT/gen_mul__10
+quit -sim
