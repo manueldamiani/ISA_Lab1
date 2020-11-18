@@ -1,0 +1,76 @@
+Information: Updating design information... (UID-85)
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 1
+Design : gr13_fir
+Version: O-2018.06-SP4
+Date   : Thu Nov 12 18:18:44 2020
+****************************************
+
+Operating Conditions: typical   Library: NangateOpenCellLibrary
+Wire Load Model Mode: top
+
+  Startpoint: b[53] (input port clocked by MY_CLK)
+  Endpoint: r01_1/Q_reg[21]
+            (rising edge-triggered flip-flop clocked by MY_CLK)
+  Path Group: MY_CLK
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  gr13_fir           5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock MY_CLK (rise edge)                                0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  input external delay                                    0.50       0.50 f
+  b[53] (in)                                              0.00       0.50 f
+  mult_59_G2/a[1] (gr13_fir_DW_mult_tc_20)                0.00       0.50 f
+  mult_59_G2/U321/ZN (INV_X1)                             0.06       0.56 r
+  mult_59_G2/U317/Z (XOR2_X2)                             0.15       0.70 r
+  mult_59_G2/U466/ZN (NAND2_X1)                           0.11       0.82 f
+  mult_59_G2/U359/ZN (OAI22_X1)                           0.08       0.89 r
+  mult_59_G2/U75/S (HA_X1)                                0.05       0.94 f
+  mult_59_G2/U22/CO (FA_X1)                               0.10       1.05 f
+  mult_59_G2/U21/CO (FA_X1)                               0.09       1.14 f
+  mult_59_G2/U20/CO (FA_X1)                               0.09       1.23 f
+  mult_59_G2/U19/CO (FA_X1)                               0.09       1.32 f
+  mult_59_G2/U18/CO (FA_X1)                               0.09       1.41 f
+  mult_59_G2/U17/CO (FA_X1)                               0.09       1.50 f
+  mult_59_G2/U16/CO (FA_X1)                               0.09       1.59 f
+  mult_59_G2/U15/CO (FA_X1)                               0.09       1.68 f
+  mult_59_G2/U14/CO (FA_X1)                               0.09       1.77 f
+  mult_59_G2/U13/CO (FA_X1)                               0.09       1.86 f
+  mult_59_G2/U12/CO (FA_X1)                               0.09       1.95 f
+  mult_59_G2/U11/CO (FA_X1)                               0.09       2.04 f
+  mult_59_G2/U10/CO (FA_X1)                               0.09       2.13 f
+  mult_59_G2/U9/CO (FA_X1)                                0.09       2.22 f
+  mult_59_G2/U8/CO (FA_X1)                                0.09       2.31 f
+  mult_59_G2/U7/CO (FA_X1)                                0.09       2.41 f
+  mult_59_G2/U6/CO (FA_X1)                                0.09       2.50 f
+  mult_59_G2/U5/CO (FA_X1)                                0.09       2.59 f
+  mult_59_G2/U324/Z (XOR2_X1)                             0.08       2.66 f
+  mult_59_G2/U322/Z (XOR2_X1)                             0.07       2.73 f
+  mult_59_G2/product[21] (gr13_fir_DW_mult_tc_20)         0.00       2.73 f
+  r01_1/D[21] (regn_18)                                   0.00       2.73 f
+  r01_1/Q_reg[21]/D (DFFR_X1)                             0.01       2.74 f
+  data arrival time                                                  2.74
+
+  clock MY_CLK (rise edge)                                5.52       5.52
+  clock network delay (ideal)                             0.00       5.52
+  clock uncertainty                                      -0.07       5.45
+  r01_1/Q_reg[21]/CK (DFFR_X1)                            0.00       5.45 r
+  library setup time                                     -0.04       5.41
+  data required time                                                 5.41
+  --------------------------------------------------------------------------
+  data required time                                                 5.41
+  data arrival time                                                 -2.74
+  --------------------------------------------------------------------------
+  slack (MET)                                                        2.67
+
+
+1

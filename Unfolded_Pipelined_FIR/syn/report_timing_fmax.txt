@@ -1,0 +1,68 @@
+Information: Updating design information... (UID-85)
+Warning: There are infeasible paths detected in your design that were ignored during optimization. Please run 'report_timing -attributes' and/or 'create_qor_snapshot/query_qor_snapshot -infeasible_paths' to identify these paths.  (OPT-1721)
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 1
+Design : gr13_fir
+Version: O-2018.06-SP4
+Date   : Thu Nov 12 17:51:02 2020
+****************************************
+
+Operating Conditions: typical   Library: NangateOpenCellLibrary
+Wire Load Model Mode: top
+
+  Startpoint: regs1_reg[3][1]
+              (rising edge-triggered flip-flop clocked by MY_CLK)
+  Endpoint: r24_2/Q_reg[18]
+            (rising edge-triggered flip-flop clocked by MY_CLK)
+  Path Group: MY_CLK
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  gr13_fir           5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock MY_CLK (rise edge)                                0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  regs1_reg[3][1]/CK (DFFR_X1)                            0.00       0.00 r
+  regs1_reg[3][1]/Q (DFFR_X1)                             0.18       0.18 r
+  mult_69_G3/b[1] (gr13_fir_DW_mult_tc_65)                0.00       0.18 r
+  mult_69_G3/U755/ZN (INV_X1)                             0.04       0.23 f
+  mult_69_G3/U805/ZN (INV_X1)                             0.12       0.35 r
+  mult_69_G3/U454/ZN (XNOR2_X2)                           0.14       0.49 r
+  mult_69_G3/U679/ZN (NAND2_X1)                           0.11       0.60 f
+  mult_69_G3/U594/ZN (OAI22_X1)                           0.07       0.67 r
+  mult_69_G3/U636/ZN (INV_X1)                             0.03       0.70 f
+  mult_69_G3/U209/CO (FA_X1)                              0.10       0.80 f
+  mult_69_G3/U204/S (FA_X1)                               0.13       0.93 f
+  mult_69_G3/U203/S (FA_X1)                               0.14       1.07 r
+  mult_69_G3/U784/ZN (NOR2_X1)                            0.03       1.10 f
+  mult_69_G3/U497/ZN (NOR2_X1)                            0.05       1.16 r
+  mult_69_G3/U767/ZN (NAND2_X1)                           0.04       1.19 f
+  mult_69_G3/U482/ZN (OAI21_X1)                           0.07       1.26 r
+  mult_69_G3/U570/ZN (AOI21_X1)                           0.04       1.30 f
+  mult_69_G3/U763/Z (XOR2_X1)                             0.07       1.37 f
+  mult_69_G3/product[18] (gr13_fir_DW_mult_tc_65)         0.00       1.37 f
+  r24_2/D[18] (regn_3)                                    0.00       1.37 f
+  r24_2/Q_reg[18]/D (DFFR_X1)                             0.01       1.38 f
+  data arrival time                                                  1.38
+
+  clock MY_CLK (rise edge)                                0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  clock uncertainty                                      -0.07      -0.07
+  r24_2/Q_reg[18]/CK (DFFR_X1)                            0.00      -0.07 r
+  library setup time                                     -0.04      -0.11
+  data required time                                                -0.11
+  --------------------------------------------------------------------------
+  data required time                                                -0.11
+  data arrival time                                                 -1.38
+  --------------------------------------------------------------------------
+  slack (VIOLATED)                                                  -1.49
+
+
+1
